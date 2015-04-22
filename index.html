@@ -5,6 +5,15 @@
     <title>졸린은선이-</title>
     <script src="./main.js"></script>
     <style>
+    	*{
+			margin :0px; padding : 0px;
+    	}
+		.container{
+			width : 890px;
+			margin :0px auto 10px auto;
+			pading : 0px;
+			background : #994433;
+		}    
     	.greeting{
     		font-size : 30px;
     		font-weight : bold;
@@ -12,7 +21,11 @@
     		width : 400px; height :300px;
     		margin : auto;
     	}
-    	img{
+    	#myphoto, #myinfo  {
+    		background-color: #ff66ff;
+    		border : 2px solid #ff6666;
+    	}
+    	#myphoto > img{
     			width : 640px; 
     			border-top : 4x solid #666666;
     			border-right : 4px dashed #666666;
@@ -23,7 +36,14 @@
     
 </head>
 <body>
-	<div class = "greeting">Hello World</div>
-	<img src = "./images/me.jpg" alt="마시멜로우 대한잉" title = "때니 맛있어용><">
+	<div class = "container">	
+		<div id = "myphoto">
+				<img src = "./images/me.jpg" alt="마시멜로우 대한잉" title = "때니 맛있어용><">	
+		</div>
+		<div id = "myinfo">
+		
+		</div>
+	</div>
+	<!--<div class = "greeting">Hello World</div>-->
 </body>
 </html>
