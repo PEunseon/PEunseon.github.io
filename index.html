@@ -14,6 +14,40 @@
 			pading : 0px;
 			background : #994433;
 		}    
+			#myphoto, #myinfo  {
+	    		background-color: #ff66ff;
+	    		border : 2px solid #ff6666;
+    		}
+		    	#myphoto > img{
+		    		width : 640px; 
+		    		border-top : 4x solid #666666;
+		    		border-right : 4px dashed #666666;
+		    		border-bottom : 4px dotted #666666;
+					border-left  : 4px double #666666;	
+		    	}
+		   #myinfo {
+		    	text-align : left;
+		    } 	
+		    	#myinfo > ol{
+		    		margin : 30px 0px 30px 130px;
+		    		list-style : square; 
+		    	}
+		    	#myinfo > li{
+		    		padding : 5px;
+		    		font-size : 1.4em;
+		    		/*font-size : 140%*/
+		    	}
+		    	#myinfo > ol > li > span.label{
+		    		text-decoration: underline;
+		    		color : #ff0000;
+		    		font-family: "돋음체";
+		    	}
+		    	#myinfo > ol > li > span.content{
+		    		font-weight : bold;
+		    		color : #ff0000;
+		    		font-family: "궁서체";
+		    	}
+		    	
     	.greeting{
     		font-size : 30px;
     		font-weight : bold;
@@ -21,17 +55,7 @@
     		width : 400px; height :300px;
     		margin : auto;
     	}
-    	#myphoto, #myinfo  {
-    		background-color: #ff66ff;
-    		border : 2px solid #ff6666;
-    	}
-    	#myphoto > img{
-    			width : 640px; 
-    			border-top : 4x solid #666666;
-    			border-right : 4px dashed #666666;
-    			border-bottom : 4px dotted #666666;
-				border-left  : 4px double #666666;
-    	}
+    	
     </style>
     
 </head>
@@ -41,7 +65,24 @@
 				<img src = "./images/me.jpg" alt="마시멜로우 대한잉" title = "때니 맛있어용><">	
 		</div>
 		<div id = "myinfo">
-		
+			<ol>
+				<li>
+					<span class = "label">이&nbsp;&nbsp;&nbsp;름</span>
+					<span class = "content">박은선</span>
+				</li>
+				<li>
+					<span class = "label">이&nbsp;메&nbsp;일</span>
+					<span class = "content">tjs5637@naver.com</span>
+					</li>
+				<li>
+					<span class = "label">취&nbsp;&nbsp;&nbsp;미</span>
+					<span class = "content">졸릴때 자기</span>
+				</li>
+				<li>
+					<span class = "label">선호언어 </span>
+					<span class = "content">한국어</span>
+				</li>
+			</ol>
 		</div>
 	</div>
 	<!--<div class = "greeting">Hello World</div>-->
